@@ -1,0 +1,50 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.05) 4px 4px 5px;
+    padding: 50px 0;
+}
+nav{
+    max-width: 80%; 
+    margin: 0 auto;
+
+}
+.display-flex1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-flex{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#g{
+    /* color: #FF42A5; */
+    background-image: linear-gradient(#F948B2,#8758F1);
+    background-clip: text;
+    color: transparent;
+}
+nav > ul > li{
+    list-style: none;
+}
+.youtube{
+    color: red;
+    font-size: 24px
+}
+.tiktok{
+    font-size: 20px;
+}
+button{
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.158);
+    padding: 6px 20px;
+    cursor: pointer;
+}
