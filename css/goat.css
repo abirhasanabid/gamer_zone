@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared styles */
+.btn-primary {
+  background-color: #ff42a5;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 21px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* shared styles end */
+
+.goat-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.goat-content {
+    width: 50%;
+}
+.relative{
+    position: relative;
+}
+.absulate{
+position: absolute;
+}
+.goat-subtitle {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.goat-title {
+  font-size: 6rem;
+  font-weight: 800;
+  background-image: linear-gradient(
+    rgba(249, 72, 178, 1),
+    rgba(135, 88, 241, 1)
+  );
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.137);
+}
+.goat-description{
+    padding-top: 10px;    
+}
+.goat-img{
+    width: 50%
+}
+.goat-img img{
+    width: 100%;
+}
+
+/* responsive for mobile */
+@media screen and (max-width:576px) {
+    .goat-container {
+        /* width: 100%; */
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .goat-title {
+        font-size: 3rem;
+        font-weight: 800;
+        background-image: linear-gradient(rgba(249, 72, 178, 1), rgba(135, 88, 241, 1));
+        background-clip: text;
+        color: transparent;
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.137);
+    }
+    .g14{
+        width: 100%;
+        height: 50%;
+        /* display: none; */
+    }
+    .g14 img{
+        width: 100%;
+        height: 300px;
+    }
+    .btn-primary {
+        background-color: #ff42a5;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .goat-content {
+        width: 100%;
+    }
+    .goat-img {
+        width: 100%;
+    }
+}
